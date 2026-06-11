@@ -5,6 +5,9 @@
 TotalThreat IQ is a local cybersecurity reasoning app built for the **Microsoft Agents League Hackathon / Microsoft AI Fest** under the **Reasoning Agents** track. The app analyzes suspicious communication, detects common phishing and social engineering indicators, assigns a threat score, explains the reasoning, recommends safe actions, saves scan history locally, and generates downloadable security reports.
 
 ---
+## Live Demo
+
+Try TotalThreat IQ here: https://totalthreat-iq.streamlit.app/
 
 ## Project Summary
 
