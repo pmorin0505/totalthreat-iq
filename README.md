@@ -9,6 +9,10 @@ TotalThreat IQ is a local cybersecurity reasoning app built for the **Microsoft 
 
 Try TotalThreat IQ here: https://totalthreat-iq.streamlit.app/
 
+## Public Demo Data Notice
+
+The Streamlit demo is a shared public demo environment. Scan history may be visible to other users while the app instance is running, and history may reset when the app restarts or redeploys. Do not enter confidential, personal, employer, customer, employee, or sensitive information. Use fictional or test examples only.
+
 ## Project Summary
 
 TotalThreat IQ is inspired by tools like VirusTotal, but instead of scanning executable malware, it focuses on suspicious communication.
