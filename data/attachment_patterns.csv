@@ -1,0 +1,6 @@
+Pattern ID,File Pattern,Extension Type,Risk Level,Risk Weight,Why It Matters,Example Filename,Recommended Action
+A-001,.exe/.bat/.cmd/.scr/.js/.vbs/.ps1,Executable,High,25,Can execute code,security_update.js,Do not open; report.
+A-002,.docm/.xlsm/.pptm,Macro Office,High,20,Can contain macros,benefits_form.docm,Verify before opening.
+A-003,.zip/.rar/.7z,Compressed Archive,Medium,10,Can hide risky contents,payroll_update.zip,Verify source.
+A-004,.iso/.img,Disk Image,High,20,Common malware delivery format,invoice.iso,Do not mount.
+A-005,double extension,Mismatch,High,25,Hides true file type,invoice.pdf.exe,Do not open; report.

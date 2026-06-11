@@ -1,0 +1,6 @@
+Pattern ID,Pattern Type,Pattern / Keyword,Description,Risk Weight,Example,Recommended Finding Text
+P-001,URL,http://,No HTTPS,10,http://example.com,URL does not use HTTPS.
+P-002,TLD,.xyz/.top/.ru/.click,Suspicious TLD set,15,example.xyz,Domain uses a suspicious TLD.
+P-003,Keyword,login/security/account/verify,Credential-related URL words,15,/account/verify,URL contains account/security keywords.
+P-004,Domain,IP address,IP-based URL,20,http://192.0.2.10,URL uses an IP address.
+P-005,Domain,shortener,Shortened URL,15,bit.ly/example,Shortened URLs hide destination.

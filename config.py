@@ -1,0 +1,13 @@
+APP_NAME = "TotalThreat IQ"
+APP_VERSION = "1.0.0"
+APP_SUBTITLE = "A multi-signal cybersecurity reasoning application for suspicious emails, messages, links, domains, and attachment names."
+LOGO_PATH = "assets/totalthreat_logo.png"
+DB_PATH = "data/totalthreat_scans.db"
+SAMPLE_MESSAGES_PATH = "data/sample_messages.csv"
+THREAT_RULES_PATH = "data/threat_rules.csv"
+SUSPICIOUS_PATTERNS_PATH = "data/suspicious_patterns.csv"
+ATTACHMENT_PATTERNS_PATH = "data/attachment_patterns.csv"
+RISK_THRESHOLDS = {"Low": (0, 24), "Medium": (25, 49), "High": (50, 74), "Critical": (75, 100)}
+RISK_COLORS = {"Low": "#22c55e", "Medium": "#f59e0b", "High": "#f97316", "Critical": "#ef4444"}
+DISCLAIMER = "TotalThreat IQ is an educational cybersecurity awareness and reasoning tool. It does not guarantee that a message is safe or malicious. Users should verify suspicious messages through official channels and follow their organization’s security policies."
+DATA_DISCLAIMER = "This project uses fictional examples only. No employer, customer, employee, confidential, or real organizational data was used."

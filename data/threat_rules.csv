@@ -1,0 +1,11 @@
+Rule ID,Rule Name,Trigger Condition,Score Added,Risk Impact,Applies To,Example,Notes
+R-001,Urgency or pressure,urgent/immediately/final notice,15,Medium,Message,Act now,Pressure signal
+R-002,Credential request,password/login/verify account,25,High,Message,Verify your password,Credential theft
+R-003,MFA code request,verification code/OTP/MFA,25,High,Message,Send your code,MFA theft
+R-004,Suspicious link,URL/domain found,20,High,Message/URL,http://example.com/login,URL needs review
+R-005,Brand impersonation,Brand in unofficial domain,15,Medium,URL,microsoft-alert.example.com,Impersonation risk
+R-006,Account shutdown threat,suspended/locked/disabled,20,High,Message,Account locked,Fear tactic
+R-007,Payment or banking request,payment/wire/invoice/payroll,20,High,Message,Update direct deposit,BEC/payroll risk
+R-008,Gift card request,gift card keywords,20,High,Message,Buy gift cards,Common scam
+R-009,Dangerous extension,.exe/.js/.vbs/.ps1,25,High,Attachment,invoice.pdf.exe,May execute code
+R-010,Double extension,multiple file extensions,25,High,Attachment,report.pdf.exe,Trick filename

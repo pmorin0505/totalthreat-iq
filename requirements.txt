@@ -1,0 +1,12 @@
+streamlit>=1.35
+pandas>=2.0
+plotly>=5.20
+openpyxl>=3.1
+tldextract>=5.1
+validators>=0.28
+requests>=2.31
+beautifulsoup4>=4.12
+python-whois>=0.9
+streamlit-option-menu>=0.3.13
+streamlit-aggrid>=1.0.5
+streamlit-extras>=0.4.3
