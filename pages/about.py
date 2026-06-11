@@ -2,13 +2,10 @@ import streamlit as st
 
 from modules.ui_components import disclaimer_box, result_card
 
-def render():
-st.title("About TotalThreat IQ")
-st.caption(
-"Microsoft Agents League Hackathon / Microsoft AI Fest • Reasoning Agents • Foundry IQ Direction"
-)
 
-```
+def render():
+    st.title("About TotalThreat IQ")
+    st.caption("Microsoft Agents League Hackathon / Microsoft AI Fest • Reasoning Agents • Foundry IQ Direction")
 st.markdown(
     """
     **TotalThreat IQ** is a cybersecurity reasoning app that analyzes suspicious emails, messages,
@@ -231,7 +228,6 @@ st.markdown(
 
 st.code(
     """
-```
 
 AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com
 AZURE_OPENAI_API_KEY=your-api-key-here
@@ -243,7 +239,6 @@ FOUNDRY_IQ_KNOWLEDGE_BASE=totalthreat-cybersecurity-knowledge-base
 language="text",
 )
 
-```
 disclaimer_box(
     "Do not upload .env files, API keys, access tokens, secrets, or credentials to GitHub."
 )
@@ -363,4 +358,3 @@ st.markdown(
     LinkedIn: [Paul Morin](https://www.linkedin.com/in/paul-morin-6526422b0/)
     """
 )
-```
